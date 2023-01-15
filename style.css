@@ -374,8 +374,8 @@ hr {
   }
 
   .feature-container {
-    flex-direction: column-reverse;
-    margin-top: 80px;
+    flex-direction: column;
+    margin-top: 10px;
   }
 
   .feature-fast-container {
@@ -483,8 +483,10 @@ hr {
   .exp-style-1 {
     font-size: 30px;
   }
-  .team-title , .exprience-title , .fact-title, .sponsor-title{
+  .team-title,
+  .exprience-title,
+  .fact-title,
+  .sponsor-title {
     font-size: 25px;
   }
-  
 }
