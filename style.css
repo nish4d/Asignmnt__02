@@ -144,6 +144,9 @@ main {
 .exprience-sec-container {
   width: 40%;
 }
+.exprience-card-section {
+  margin: 20px;
+}
 
 .exprience-title-container {
   display: flex;
@@ -460,11 +463,13 @@ hr {
     line-height: 1.7em;
   }
 }
-@media screen and (max-width: 350px){
-    .fact-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .exp-style-1{
-        font-size: 30px;
-    }
+
+/* responsive for galaxy fold */
+@media screen and (max-width: 350px) {
+  .fact-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .exp-style-1 {
+    font-size: 30px;
+  }
 }
