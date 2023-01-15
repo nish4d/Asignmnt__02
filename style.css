@@ -464,4 +464,7 @@ hr {
     .fact-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .exp-style-1{
+        font-size: 30px;
+    }
 }
