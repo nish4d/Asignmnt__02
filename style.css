@@ -353,10 +353,16 @@ hr {
   .header-banner {
     padding: 0px;
   }
+  .header-banner-container {
+    margin-top: 50px;
+  }
 
   .header-banner-title,
   .feature-title {
     font-size: 30px;
+  }
+  .header-banner-img {
+    margin: 20px;
   }
   .header-banner-img,
   .feature-container {
@@ -368,20 +374,21 @@ hr {
 
   .feature-container {
     flex-direction: column-reverse;
+    margin-top: 80px;
   }
 
   .feature-fast-container {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
-    padding: 20px;
+    padding: 60px;
   }
   .feature-sec-container {
     text-align: center;
     max-width: 80%;
     margin-left: 0;
   }
-  .feature-sec-container > img {
-    place-items: center;
+  .feature-fast-container > img {
+    margin-top: 15px;
   }
   .exprience-container {
     flex-direction: column;
@@ -392,6 +399,7 @@ hr {
     text-align: center;
     padding: 20px;
   }
+
   .exprience-fast-container {
     margin-bottom: 20px;
   }
@@ -417,21 +425,23 @@ hr {
   }
   .fact-sections {
     margin-top: 20px;
+    text-align: center;
   }
-  .fact-sections,
+
   .fact-secription {
     text-align: center;
     width: 100%;
+    padding: 10px;
   }
   .fact-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     margin: 20px;
   }
 
   .fact-sub-container {
     padding: 25px;
-    width: 165px;
+    width: 220px;
   }
   .sponsor-section {
     margin-top: 100px;
@@ -472,4 +482,8 @@ hr {
   .exp-style-1 {
     font-size: 30px;
   }
+  .team-title , .exprience-title , .fact-title, .sponsor-title{
+    font-size: 25px;
+  }
+  
 }
