@@ -340,16 +340,24 @@ hr {
 
   .logo-title {
     font-size: 30px;
-    margin-left: 10%;
+    width: 100%;
   }
-  .fa-bars {
-    display: block;
-    margin-right: 30px;
-    cursor: pointer;
+  .nav-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    
+  }
+  .nav-element {
+    margin-top: 40px;
   }
 
   .nav-element > ul {
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
   }
   .header-banner {
     padding: 0px;
